@@ -35,7 +35,7 @@
 * @group ErrorHandling
 * @group-content ../../ApexDocContent/ErrorHandling.htm
 */
-public class ERR_RecordError {
+public inherited sharing class ERR_RecordError {
 
    public class RecordErrorHandlerException extends Exception { }
 

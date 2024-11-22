@@ -40,7 +40,7 @@ public class TEST_SObjectGateway {
     /***
     * @description Retrieves Recurring Donation record(s)
     */
-    public class RecurringDonationGateway {
+    public inherited sharing class RecurringDonationGateway {
 
         /***
         * @description Retrieves Recurring Donation record for the specified Id
@@ -126,7 +126,7 @@ public class TEST_SObjectGateway {
     /***
     * @description Retrieves Recurring Donation Schedule record(s)
     */
-    public class RecurringDonationScheduleGateway {
+    public inherited sharing class RecurringDonationScheduleGateway {
 
         /***
         * @description Retrieves Recurring Donation Schedule records for the specified RD record
@@ -171,7 +171,7 @@ public class TEST_SObjectGateway {
     /***
     * @description Retrieves Opportunities
     */
-    public class OpportunityGateway {
+    public inherited sharing class OpportunityGateway {
         private Set<String> fields = new Set<String>{
             'Name',
             'Description',
@@ -280,7 +280,7 @@ public class TEST_SObjectGateway {
     /***
     * @description Retrieves payments
     */
-    public class PaymentGateway {
+    public inherited sharing class PaymentGateway {
         private Set<String> fields = new Set<String>{
             'Name',
             'npe01__Payment_Method__c',
@@ -354,7 +354,7 @@ public class TEST_SObjectGateway {
     /***
     * @description Retrieves Error record(s)
     */
-    public class ErrorGateway {
+    public inherited sharing class ErrorGateway {
 
         /***
         * @description Retrieves Error records
@@ -389,7 +389,7 @@ public class TEST_SObjectGateway {
     /***
     * @description Retrieves AsyncApexJob record(s)
     */
-    public class AsyncApexJobGateway {
+    public inherited sharing class AsyncApexJobGateway {
         private Set<String> fields = new Set<String>{
             'CreatedDate',
             'CompletedDate',

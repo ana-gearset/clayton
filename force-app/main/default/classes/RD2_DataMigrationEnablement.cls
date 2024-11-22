@@ -38,7 +38,7 @@ public with sharing class RD2_DataMigrationEnablement {
     /**
     * @description Saves data migration batch summaries
     */
-    public class BatchJob {
+    public inherited sharing class BatchJob {
         public final String DRY_RUN_MODE = 'dryRun';
         public final String RUN_MODE = 'run';
         public final String DRY_RUN_MIGRATION_BATCH_CLASS = 'RD2_DataMigrationDryRun_BATCH';

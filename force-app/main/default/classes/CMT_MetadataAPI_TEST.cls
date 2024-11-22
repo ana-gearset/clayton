@@ -160,7 +160,7 @@ private class CMT_MetadataAPI_TEST {
     /*************************************************************************************************************
      * @description Callback Handler to test the result callback
      **/
-    public class MockCallbackHandler implements CMT_MetadataAPI.MetadataCallbackHandler {
+    public inherited sharing class MockCallbackHandler implements CMT_MetadataAPI.MetadataCallbackHandler {
         public void performSuccessHandler(Map<String, Object> params, String status) {
             Account newAccount = new Account(Name = SUCCESS_HANDLER_EXECUTED, Description = status);
             insert newAccount;

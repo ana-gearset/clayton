@@ -514,7 +514,7 @@ global without sharing class STG_InstallScript implements InstallHandler {
     /*******************************************************************************************************
     * @description Collects exceptions. Logs exceptions by sending an email and processing error via ERR_Handler.
     */
-    public class ErrorLogger {
+    public inherited sharing class ErrorLogger {
         /** @description The install context. */
         InstallContext installContext;
 

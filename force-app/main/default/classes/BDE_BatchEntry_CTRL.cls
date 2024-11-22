@@ -246,7 +246,7 @@ public with sharing class BDE_BatchEntry_CTRL {
     /*********************************************************************************************************
     * @description Batch Item Class
     */        
-    public class BatchItem {
+    public inherited sharing class BatchItem {
             
             BDE_BatchEntry_CTRL mydad;
             public integer itemNum { get; private set; }

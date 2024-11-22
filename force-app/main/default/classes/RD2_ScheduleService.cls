@@ -1070,7 +1070,7 @@ public without sharing class RD2_ScheduleService {
     /***
     * @description Handles Pause Recurring Donation functionality
     */
-    public class PauseScheduleHandler {
+    public inherited sharing class PauseScheduleHandler {
 
         public RecurringDonationSchedule__c createPauseSchedule(String statusReason, Date startDate, Date endDate, Id rdId) {
             return new RecurringDonationSchedule__c(

@@ -35,7 +35,7 @@
 * @description Trigger handler on Allocation object, forces allocations for a single parent to not exceed the parent amount,
 *              and calculates amount for percentage based allocations.
 */
-public class ALLO_Allocations_TDTM extends TDTM_Runnable {
+public inherited sharing class ALLO_Allocations_TDTM extends TDTM_Runnable {
 
     /** @description A map of allocation parent id to alloWrapper class; holds all relevant allocations data for this transaction. */
     public Map<Id,alloWrapper> mapWrapper = new Map<Id,alloWrapper>();

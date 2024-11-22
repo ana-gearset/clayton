@@ -140,7 +140,7 @@ public inherited sharing class CRLP_EnablementService {
     *   - CallableApiParameters.PARAM_ROLLUP_TYPES : Pass to the DSO-Bridge Api to mark these specific types of rollups as "stale" (deprecated)
      *  -
     **/
-    public class RollupMetadataHandler implements CMT_MetadataAPI.MetadataCallbackHandler {
+    public inherited sharing class RollupMetadataHandler implements CMT_MetadataAPI.MetadataCallbackHandler {
 
         public Map<String, Object> params = new Map<String, Object>();
 

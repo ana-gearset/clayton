@@ -33,7 +33,7 @@
 * @group Households
 * @description Opportunity Trigger Handler for managing Opportunity Contact Roles for Household members 
 */
-public class HH_OppContactRoles_TDTM extends TDTM_Runnable { 
+public inherited sharing class HH_OppContactRoles_TDTM extends TDTM_Runnable { 
 	
     public static string strRefreshSetting = 'Open and Closed Opportunities';
 

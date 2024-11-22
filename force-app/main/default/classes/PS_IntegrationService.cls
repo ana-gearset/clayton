@@ -34,7 +34,7 @@
 * @group-content ../../ApexDocContent/GiftEntry.htm
 * @description Provides a public interface to the Payment Services Integration Package
 */
-global class PS_IntegrationService {
+global inherited sharing class PS_IntegrationService {
 
     @TestVisible
     private static final String INVALID_CONFIG_PARAMS = System.Label.gePS_IntegrationTestInvalidConfigParams;

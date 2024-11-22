@@ -625,7 +625,7 @@ public with sharing class BGE_DataImportBatchEntry_CTRL {
     /*******************************************************************************************************
     * @description a class to retrieve and save the required information for the Batch Data Import component.
     */
-    public class DataImportModel {
+    public inherited sharing class DataImportModel {
         @AuraEnabled public Id id;
         @AuraEnabled public List<DataImportRow> dataImportRows;
         @AuraEnabled public List<Column> columns;

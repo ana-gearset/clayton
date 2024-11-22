@@ -34,7 +34,7 @@
 * @group-content ../../ApexDocContent/Rollups2.htm
 * @description Service method explicitly related to batch or queueable rollup operations
 */
-public class CRLP_RollupBatch_SVC {
+public inherited sharing class CRLP_RollupBatch_SVC {
 
     /** @description Custom Settings record that defines specific Customizable Rollups settings */
     private static final Customizable_Rollup_Settings__c customizableRollupSettings = UTIL_CustomSettingsFacade.getCustomizableRollupSettings();

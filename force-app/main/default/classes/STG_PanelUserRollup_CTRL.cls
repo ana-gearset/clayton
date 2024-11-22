@@ -384,7 +384,7 @@ public with sharing class STG_PanelUserRollup_CTRL extends STG_Panel {
     /*********************************************************************************************************
     * @description Class the represents a User Defined Rollup
     */
-    public class UDR{
+    public inherited sharing class UDR{
 
 	    /*********************************************************************************************************
 	    * @description The User Rollup Field Settings object this class holds

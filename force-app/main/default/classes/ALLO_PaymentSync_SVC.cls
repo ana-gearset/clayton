@@ -35,7 +35,7 @@
 * @description Service syncs changes between Opportunity and Payment
 *              Allocations.
 */
-public class ALLO_PaymentSync_SVC {
+public inherited sharing class ALLO_PaymentSync_SVC {
 
     public class PaymentSyncException extends Exception {}
 

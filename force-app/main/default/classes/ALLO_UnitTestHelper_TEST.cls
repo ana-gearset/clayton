@@ -694,7 +694,7 @@ public class ALLO_UnitTestHelper_TEST {
      * @description Inner class to facilitate applying different configuration/environmental options for
      *              Test execution
      */
-    public class AllocationSetupTest {
+    public inherited sharing class AllocationSetupTest {
 
         private List<General_Accounting_Unit__c> gaus = null;
         private General_Accounting_Unit__c defaultGAU = null;

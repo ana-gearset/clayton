@@ -367,7 +367,7 @@ public with sharing class CON_DeleteContactOverride_CTRL {
     /*******************************************************************************************************
     * @description Class that retrieves and validates the children of the Contacts to delete.
     ********************************************************************************************************/
-    class ContactCascadeDelete {
+    inherited sharing class ContactCascadeDelete {
 
         private Contact contactToDelete;
         private List<Case> relatedCases;

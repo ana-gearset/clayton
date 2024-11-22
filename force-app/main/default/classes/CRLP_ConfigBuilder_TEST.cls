@@ -127,7 +127,7 @@ private class CRLP_ConfigBuilder_TEST {
      /*************************************************************************************************************
      * @description Callback Handler to test the result callback
      **/
-    public class MockCallbackHandler implements CMT_MetadataAPI.MetadataCallbackHandler {
+    public inherited sharing class MockCallbackHandler implements CMT_MetadataAPI.MetadataCallbackHandler {
         public void performSuccessHandler(Map<String, Object> params, String status) {
             updateStatus(status, true);
         }

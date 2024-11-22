@@ -170,7 +170,7 @@ public inherited sharing class ALLO_AllocationsRetrievalService {
      * @description Inner class to facilitate querying Opportunity and related payment information (if Payment Allocations is
      *              enabled)
      */
-    public class OpportunitiesQuery {
+    public inherited sharing class OpportunitiesQuery {
         @testVisible private Set<Id> opportunityIds;
         @testVisible private Boolean retrievePaymentInfo = UTIL_CustomSettingsFacade.getAllocationsSettings().Payment_Allocations_Enabled__c == TRUE;
 
@@ -244,7 +244,7 @@ public inherited sharing class ALLO_AllocationsRetrievalService {
     /**
      * @description Inner class to make retrieving Allocations easier
      */
-    public class AllocationsQuery {
+    public inherited sharing class AllocationsQuery {
         @testVisible private Set<Id> opportunityIds;
         @testVisible private Set<Id> paymentIds;
         @testVisible private Set<Id> campaignIds;

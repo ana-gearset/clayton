@@ -839,7 +839,7 @@ private with sharing class PMT_PaymentCreator_TEST {
         System.assertEquals(openStage, oh.opp.StageName);
     }
 
-    class OpportunityHelper {
+    inherited sharing class OpportunityHelper {
         public Opportunity opp;
         public OpportunityHelper(String initialStageName) {
             opp = new Opportunity(
